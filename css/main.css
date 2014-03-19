@@ -1,0 +1,79 @@
+body{
+  background: url('../images/bg.png');
+}
+
+#menu{
+  margin-top: 20px;
+}
+
+#header{
+  background: url('../images/header.png');
+  border-bottom: 3px solid;
+  font-size: 40px;
+}
+
+#header div :first-child{
+  font-weight: bold;
+}
+
+#content {
+  margin-top: 20px;
+}
+
+#footer{
+  background: url('../images/header.png');
+  border-top: 3px solid;
+/*  margin-top: 10px;*/
+  font-size: 40px;
+}
+
+#footer p :last-child{
+  font-weight: bold;
+}
+
+.item{
+  border: 1px solid #ddd;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.item .image{
+  padding: 0;
+  text-align: center;
+}
+
+.item .image img{
+  height: 345px;
+}
+
+.item .detail{
+  padding: 0;
+}
+
+.item .price{
+  font-size: 51px;
+  text-align: center;
+  padding: 30px;
+}
+
+.item .price .glyphicon{
+  font-size: 100px;
+}
+
+.item .desc{
+  border-right: 1px solid #eee;
+}
+
+.item .bottom-desc{
+  padding: 2px;
+}
+
+.post{
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.breadcrumb{
+  background-color: transparent;
+  padding-left:0;
+}

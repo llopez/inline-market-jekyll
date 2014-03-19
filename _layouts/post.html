@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="row post">
+  <div class='col-md-12'>
+    <ol class="breadcrumb">
+      <li><a href="/">Inicio</a></li>
+      {% for cat in page.categories %}
+        <li><a href="#">{{ cat | capitalize }}</a></li>
+      {% endfor %}
+      <li class="active">{{page.title}}</li>
+    </ol>
+    <h1>{{ page.title }}</h1>
+  </div>
+  <div class='col-md-12'>
+    {{ content }}
+  </div>
+</div>

@@ -1,0 +1,5 @@
+name: Inline Market
+markdown: redcarpet
+pygments: false
+permalink: none
+exclude: ['Gemfile', 'Gemfile.lock']
